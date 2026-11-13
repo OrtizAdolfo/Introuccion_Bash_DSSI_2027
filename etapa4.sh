@@ -46,7 +46,7 @@ echo "REGISTRO DE ADMINISTRACION DE PROCESOS" > "$DOC_PROC"
 echo "Fecha de ejecucion: $(date)" >> "$DOC_PROC"
 echo "Usuario: $USER" >> "$DOC_PROC"
 
-# Iniciar un proceso de bajo impacto (sleep) en segundo plano
+# Iniciar un proceso (sleep) en segundo plano
 sleep 300 &
 PID_PRUEBA=$!
 
